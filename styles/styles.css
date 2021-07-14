@@ -182,7 +182,7 @@ i {
 /* Mobile Devices */
 
 @media only screen and (max-width: 688px) {
-  container {
+  .container {
     width: auto;
   }
   .cover {
@@ -219,7 +219,6 @@ i {
     display: flex;
     margin-left: 476px;
   }
-
   .copyright-text {
     margin-left: 500px;
   }
