@@ -182,7 +182,7 @@ i {
 /* Mobile Devices */
 
 @media only screen and (max-width: 688px) {
-  .container {
+  container {
     width: auto;
   }
   .cover {
@@ -192,7 +192,7 @@ i {
   .players {
     grid-template-columns: repeat(1, 1fr);
   }
-  .football-video{
+  .football-video {
     display: flex;
     flex-direction: column;
     margin-left: 190px;
@@ -203,10 +203,10 @@ i {
     align-items: center;
     justify-content: center;
   }
-.description h1{
+  .description h1 {
     font-size: 16px;
     line-height: none;
-}
+  }
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -218,8 +218,8 @@ i {
   .social-icons {
     display: flex;
     margin-left: 476px;
-}
   }
+
   .copyright-text {
     margin-left: 500px;
   }
