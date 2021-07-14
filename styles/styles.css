@@ -19,12 +19,17 @@ body {
 }
 .cover-title {
   margin-right: 102px;
+  transition: transform 1.5s;
 }
+.cover-title:hover {
+  transform: translate(20px);
+}
+
 .cover-title h1 {
   color: #ffffff;
   font-weight: 700px;
   font-size: 64px;
-  line-height: 50px;
+  line-height: 30px;
 }
 .cover-nav {
   background-color: #e02c6d;
@@ -43,8 +48,15 @@ i {
   font-size: 16px;
   margin: 0 8px;
 }
+.cover-image {
+  transition: ease transform 5s;
+}
 
 .cover-image img {
   width: 556.01px;
   height: 438px;
+}
+
+.cover-image:hover {
+  transform: scale(1.1);
 }
