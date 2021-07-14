@@ -92,7 +92,9 @@ i {
 .player p {
   font-size: 16px;
   font-weight: 400px;
+  line-height: 26px;
   color: #6c6c6c;
+  font-style: normal;
 }
 
 /* football Video style */
