@@ -60,3 +60,107 @@ i {
 .cover-image:hover {
   transform: scale(1.1);
 }
+
+/* top player and detail styles */
+
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  padding-left: 180px;
+  margin-top: 70px;
+  border-radius: 5px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+.player {
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img {
+  width: 300px;
+  height: 256px;
+  border-radius: 15px;
+}
+.player h2 {
+  font-size: 28px;
+}
+.player p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #6c6c6c;
+}
+
+/* football Video style */
+.football-video {
+  display: flex;
+  margin-left: 190px;
+  margin-top: 165px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.video-title {
+  margin-right: 102px;
+  transition: transform 1.5s;
+}
+.video-title:hover {
+  transform: translate(20px);
+}
+.video-title h1 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.highlights {
+  background-color: #e02c6d;
+  width: 140px;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.highlights a,
+i {
+  text-decoration: none;
+  font-weight: 500px;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+/* footer styles */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-top: 158px;
+  margin-bottom: 63px;
+}
+.social-icons a {
+  background-color: lightgray;
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  margin-right: 14px;
+  margin-bottom: 50px;
+  border-radius: 500px;
+}
+.social-icons a i {
+  color: #6c6c6c;
+}
+.copyright-text {
+  margin-top: 20px;
+  margin-right: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}
